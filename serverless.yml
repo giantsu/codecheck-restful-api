@@ -17,31 +17,31 @@ provider:
 
 functions:
   create:
-    handler: source/create.post
+    handler: source/route/create.post
     events:
       - http:
           path: recipes
           method: post
   getList:
-    handler: source/getList.get
+    handler: source/route/getList.get
     events:
       - http:
           path: recipes
           method: get
   get:
-    handler: source/get.get
+    handler: source/route/get.get
     events:
       - http:
           path: recipes/{id}
           method: get
   update:
-    handler: source/update.patch
+    handler: source/route/update.patch
     events:
       - http:
           path: recipes/{id}
           method: patch
   remove:
-    handler: source/remove.delete
+    handler: source/route/remove.delete
     events:
       - http:
           path: recipes/{id}
