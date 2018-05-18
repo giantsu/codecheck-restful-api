@@ -14,7 +14,8 @@
     "eslint-plugin-prettier": "^2.6.0",
     "mocha": "^2.4.5",
     "prettier": "^1.12.1",
-    "serverless": "^1.27.2"
+    "serverless": "^1.27.2",
+    "serverless-plugin-include-dependencies": "^3.1.0"
   },
   "dependencies": {
     "async": "^2.5.0",

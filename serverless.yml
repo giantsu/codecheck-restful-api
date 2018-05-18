@@ -4,6 +4,9 @@ package:
   exclude:
     - node_modules/**
 
+plugins:
+  - serverless-plugin-include-dependencies
+
 provider:
   name: aws
   runtime: nodejs8.10

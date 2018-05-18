@@ -166,7 +166,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/codecheck-restful-api/dev/1526626252244-2018-05-18T06:50:52.244Z/codecheck-restful-api.zip"
+                "S3Key": "serverless/codecheck-restful-api/dev/1526628774096-2018-05-18T07:32:54.096Z/codecheck-restful-api.zip"
               },
               "FunctionName": "codecheck-restful-api-dev-create",
               "Handler": "source/route/create.post",
@@ -185,14 +185,14 @@
               "IamRoleLambdaExecution"
             ]
           },
-          "CreateLambdaVersiont7rAx6XdPHw4jDUtIRt3n2fOPVjKPjRXdUbEGVgQvqs": {
+          "CreateLambdaVersionk9CllDhXWwHptZIFr9jDcbjnRQGtxzx7FLDFqO3kw": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "CreateLambdaFunction"
               },
-              "CodeSha256": "Q1ha2xteg6JItGgQ/NFSBhvXl0WwtLvW+V87B5rEzgE="
+              "CodeSha256": "hXKedxdHDPUKRGhhz+S2Jp+Ct1EGBOS2HsbJH8B80D4="
             }
           },
           "GetListLambdaFunction": {
@@ -202,7 +202,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/codecheck-restful-api/dev/1526626252244-2018-05-18T06:50:52.244Z/codecheck-restful-api.zip"
+                "S3Key": "serverless/codecheck-restful-api/dev/1526628774096-2018-05-18T07:32:54.096Z/codecheck-restful-api.zip"
               },
               "FunctionName": "codecheck-restful-api-dev-getList",
               "Handler": "source/route/getList.get",
@@ -221,14 +221,14 @@
               "IamRoleLambdaExecution"
             ]
           },
-          "GetListLambdaVersionHfPPQlboFsdnzSC7WXPb3sNTL5TFdrWOI3qanHx0MI": {
+          "GetListLambdaVersionrN14UQVrRiWlfctv62yU7bkqvGTANPHWyB21BLczYrM": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "GetListLambdaFunction"
               },
-              "CodeSha256": "Q1ha2xteg6JItGgQ/NFSBhvXl0WwtLvW+V87B5rEzgE="
+              "CodeSha256": "hXKedxdHDPUKRGhhz+S2Jp+Ct1EGBOS2HsbJH8B80D4="
             }
           },
           "GetLambdaFunction": {
@@ -238,7 +238,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/codecheck-restful-api/dev/1526626252244-2018-05-18T06:50:52.244Z/codecheck-restful-api.zip"
+                "S3Key": "serverless/codecheck-restful-api/dev/1526628774096-2018-05-18T07:32:54.096Z/codecheck-restful-api.zip"
               },
               "FunctionName": "codecheck-restful-api-dev-get",
               "Handler": "source/route/get.get",
@@ -257,14 +257,14 @@
               "IamRoleLambdaExecution"
             ]
           },
-          "GetLambdaVersiondhLFfI1fP0vsAk8Wg0GH4yA2cZB5IqH5dusOZXYc8": {
+          "GetLambdaVersioneg98G8ejfNUiFC3FTLQsFTpH20wEMdWwv4ZV5CB3MQ": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "GetLambdaFunction"
               },
-              "CodeSha256": "Q1ha2xteg6JItGgQ/NFSBhvXl0WwtLvW+V87B5rEzgE="
+              "CodeSha256": "hXKedxdHDPUKRGhhz+S2Jp+Ct1EGBOS2HsbJH8B80D4="
             }
           },
           "UpdateLambdaFunction": {
@@ -274,7 +274,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/codecheck-restful-api/dev/1526626252244-2018-05-18T06:50:52.244Z/codecheck-restful-api.zip"
+                "S3Key": "serverless/codecheck-restful-api/dev/1526628774096-2018-05-18T07:32:54.096Z/codecheck-restful-api.zip"
               },
               "FunctionName": "codecheck-restful-api-dev-update",
               "Handler": "source/route/update.patch",
@@ -293,14 +293,14 @@
               "IamRoleLambdaExecution"
             ]
           },
-          "UpdateLambdaVersionz4IN8yPpc3ngk2h8kNF2uSszKUmmelBHAliou20G9I": {
+          "UpdateLambdaVersionc6tfAbxmTY49uYIA2P5WVm5MHZEff6pf0s1sAA8": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "UpdateLambdaFunction"
               },
-              "CodeSha256": "Q1ha2xteg6JItGgQ/NFSBhvXl0WwtLvW+V87B5rEzgE="
+              "CodeSha256": "hXKedxdHDPUKRGhhz+S2Jp+Ct1EGBOS2HsbJH8B80D4="
             }
           },
           "RemoveLambdaFunction": {
@@ -310,7 +310,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/codecheck-restful-api/dev/1526626252244-2018-05-18T06:50:52.244Z/codecheck-restful-api.zip"
+                "S3Key": "serverless/codecheck-restful-api/dev/1526628774096-2018-05-18T07:32:54.096Z/codecheck-restful-api.zip"
               },
               "FunctionName": "codecheck-restful-api-dev-remove",
               "Handler": "source/route/remove.delete",
@@ -329,14 +329,14 @@
               "IamRoleLambdaExecution"
             ]
           },
-          "RemoveLambdaVersionzzLKoxhMqtGjczyTiXTaks7a1RS1nELBVPIgfMXN0": {
+          "RemoveLambdaVersionauCbZMekvyQn3dWtIiO6pQ8eCAYNIyAQ6JDzmrGo": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "RemoveLambdaFunction"
               },
-              "CodeSha256": "Q1ha2xteg6JItGgQ/NFSBhvXl0WwtLvW+V87B5rEzgE="
+              "CodeSha256": "hXKedxdHDPUKRGhhz+S2Jp+Ct1EGBOS2HsbJH8B80D4="
             }
           },
           "ApiGatewayRestApi": {
@@ -572,7 +572,7 @@
               "MethodResponses": []
             }
           },
-          "ApiGatewayDeployment1526626252270": {
+          "ApiGatewayDeployment1526628774122": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -763,31 +763,31 @@
           "CreateLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "CreateLambdaVersiont7rAx6XdPHw4jDUtIRt3n2fOPVjKPjRXdUbEGVgQvqs"
+              "Ref": "CreateLambdaVersionk9CllDhXWwHptZIFr9jDcbjnRQGtxzx7FLDFqO3kw"
             }
           },
           "GetListLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "GetListLambdaVersionHfPPQlboFsdnzSC7WXPb3sNTL5TFdrWOI3qanHx0MI"
+              "Ref": "GetListLambdaVersionrN14UQVrRiWlfctv62yU7bkqvGTANPHWyB21BLczYrM"
             }
           },
           "GetLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "GetLambdaVersiondhLFfI1fP0vsAk8Wg0GH4yA2cZB5IqH5dusOZXYc8"
+              "Ref": "GetLambdaVersioneg98G8ejfNUiFC3FTLQsFTpH20wEMdWwv4ZV5CB3MQ"
             }
           },
           "UpdateLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "UpdateLambdaVersionz4IN8yPpc3ngk2h8kNF2uSszKUmmelBHAliou20G9I"
+              "Ref": "UpdateLambdaVersionc6tfAbxmTY49uYIA2P5WVm5MHZEff6pf0s1sAA8"
             }
           },
           "RemoveLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "RemoveLambdaVersionzzLKoxhMqtGjczyTiXTaks7a1RS1nELBVPIgfMXN0"
+              "Ref": "RemoveLambdaVersionauCbZMekvyQn3dWtIiO6pQ8eCAYNIyAQ6JDzmrGo"
             }
           },
           "ServiceEndpoint": {
@@ -825,6 +825,9 @@
       },
       "vpc": {}
     },
+    "plugins": [
+      "serverless-plugin-include-dependencies"
+    ],
     "functions": {
       "create": {
         "handler": "source/route/create.post",
@@ -905,7 +908,7 @@
     "artifact": "/Users/imura_s/dev/practice/codecheck-restful-api/.serverless/codecheck-restful-api.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/codecheck-restful-api/dev/1526626252244-2018-05-18T06:50:52.244Z",
+    "artifactDirectoryName": "serverless/codecheck-restful-api/dev/1526628774096-2018-05-18T07:32:54.096Z",
     "artifact": "codecheck-restful-api.zip"
   }
 }
