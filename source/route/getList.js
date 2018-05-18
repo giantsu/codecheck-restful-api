@@ -5,7 +5,6 @@ module.exports.get = handler(function*(event) {
   const { Items } = yield DynamoDB.scan({
     TableName: "recipes",
   }).promise();
-  console.log(Items);
 
   return {
     statusCode: 200,
