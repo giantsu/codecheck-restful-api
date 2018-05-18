@@ -1,0 +1,48 @@
+service: codecheck-restful-api
+
+package:
+  exclude:
+    - node_modules/**
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  stage: dev
+  region: ap-northeast-1
+  iamRoleStatements:
+    - Effect: "Allow"
+      Action:
+        - "dynamodb:*"
+      Resource: "*"
+
+functions:
+  create:
+    handler: source/create.post
+    events:
+      - http:
+          path: recipes
+          method: post
+  getList:
+    handler: source/getList.get
+    events:
+      - http:
+          path: recipes
+          method: get
+  get:
+    handler: source/get.get
+    events:
+      - http:
+          path: recipes/{id}
+          method: get
+  update:
+    handler: source/update.patch
+    events:
+      - http:
+          path: recipes/{id}
+          method: patch
+  remove:
+    handler: source/remove.delete
+    events:
+      - http:
+          path: recipes/{id}
+          method: delete
