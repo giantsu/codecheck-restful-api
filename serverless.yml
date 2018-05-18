@@ -49,3 +49,5 @@ functions:
       - http:
           path: recipes/{id}
           method: delete
+
+resources: ${file(./resources.yml)}

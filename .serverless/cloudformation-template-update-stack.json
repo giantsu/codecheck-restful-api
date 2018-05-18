@@ -147,7 +147,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/codecheck-restful-api/dev/1526628774096-2018-05-18T07:32:54.096Z/codecheck-restful-api.zip"
+          "S3Key": "serverless/codecheck-restful-api/dev/1526631241724-2018-05-18T08:14:01.724Z/codecheck-restful-api.zip"
         },
         "FunctionName": "codecheck-restful-api-dev-create",
         "Handler": "source/route/create.post",
@@ -166,14 +166,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "CreateLambdaVersionk9CllDhXWwHptZIFr9jDcbjnRQGtxzx7FLDFqO3kw": {
+    "CreateLambdaVersiongX0EYedu6lBxjzAV6rWz6ziLyEI1A1CYS1Np79ysvJE": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "CreateLambdaFunction"
         },
-        "CodeSha256": "hXKedxdHDPUKRGhhz+S2Jp+Ct1EGBOS2HsbJH8B80D4="
+        "CodeSha256": "LCMfs49p5K9QAZ35IB12EMo7Bm0jlE/XwJT78EXSuiQ="
       }
     },
     "GetListLambdaFunction": {
@@ -183,7 +183,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/codecheck-restful-api/dev/1526628774096-2018-05-18T07:32:54.096Z/codecheck-restful-api.zip"
+          "S3Key": "serverless/codecheck-restful-api/dev/1526631241724-2018-05-18T08:14:01.724Z/codecheck-restful-api.zip"
         },
         "FunctionName": "codecheck-restful-api-dev-getList",
         "Handler": "source/route/getList.get",
@@ -202,14 +202,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "GetListLambdaVersionrN14UQVrRiWlfctv62yU7bkqvGTANPHWyB21BLczYrM": {
+    "GetListLambdaVersion0dML00BN6Jp5tm2NjrCpbR3fEmzSXliHXnNyGbgwSgs": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "GetListLambdaFunction"
         },
-        "CodeSha256": "hXKedxdHDPUKRGhhz+S2Jp+Ct1EGBOS2HsbJH8B80D4="
+        "CodeSha256": "LCMfs49p5K9QAZ35IB12EMo7Bm0jlE/XwJT78EXSuiQ="
       }
     },
     "GetLambdaFunction": {
@@ -219,7 +219,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/codecheck-restful-api/dev/1526628774096-2018-05-18T07:32:54.096Z/codecheck-restful-api.zip"
+          "S3Key": "serverless/codecheck-restful-api/dev/1526631241724-2018-05-18T08:14:01.724Z/codecheck-restful-api.zip"
         },
         "FunctionName": "codecheck-restful-api-dev-get",
         "Handler": "source/route/get.get",
@@ -238,14 +238,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "GetLambdaVersioneg98G8ejfNUiFC3FTLQsFTpH20wEMdWwv4ZV5CB3MQ": {
+    "GetLambdaVersionpOaQhhaJFRdhTORXPcozVsfn274vIEPvbwsZIxnpc3c": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "GetLambdaFunction"
         },
-        "CodeSha256": "hXKedxdHDPUKRGhhz+S2Jp+Ct1EGBOS2HsbJH8B80D4="
+        "CodeSha256": "LCMfs49p5K9QAZ35IB12EMo7Bm0jlE/XwJT78EXSuiQ="
       }
     },
     "UpdateLambdaFunction": {
@@ -255,7 +255,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/codecheck-restful-api/dev/1526628774096-2018-05-18T07:32:54.096Z/codecheck-restful-api.zip"
+          "S3Key": "serverless/codecheck-restful-api/dev/1526631241724-2018-05-18T08:14:01.724Z/codecheck-restful-api.zip"
         },
         "FunctionName": "codecheck-restful-api-dev-update",
         "Handler": "source/route/update.patch",
@@ -274,14 +274,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "UpdateLambdaVersionc6tfAbxmTY49uYIA2P5WVm5MHZEff6pf0s1sAA8": {
+    "UpdateLambdaVersionE8OPslsIRi1k8cCKcZSYXoNwSXzCWR8NbDlm95iOzg": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "UpdateLambdaFunction"
         },
-        "CodeSha256": "hXKedxdHDPUKRGhhz+S2Jp+Ct1EGBOS2HsbJH8B80D4="
+        "CodeSha256": "LCMfs49p5K9QAZ35IB12EMo7Bm0jlE/XwJT78EXSuiQ="
       }
     },
     "RemoveLambdaFunction": {
@@ -291,7 +291,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/codecheck-restful-api/dev/1526628774096-2018-05-18T07:32:54.096Z/codecheck-restful-api.zip"
+          "S3Key": "serverless/codecheck-restful-api/dev/1526631241724-2018-05-18T08:14:01.724Z/codecheck-restful-api.zip"
         },
         "FunctionName": "codecheck-restful-api-dev-remove",
         "Handler": "source/route/remove.delete",
@@ -310,14 +310,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "RemoveLambdaVersionauCbZMekvyQn3dWtIiO6pQ8eCAYNIyAQ6JDzmrGo": {
+    "RemoveLambdaVersionNho5vL6E69j5qbqeulNqooVgg61Haz9xjfdmasMKyU": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "RemoveLambdaFunction"
         },
-        "CodeSha256": "hXKedxdHDPUKRGhhz+S2Jp+Ct1EGBOS2HsbJH8B80D4="
+        "CodeSha256": "LCMfs49p5K9QAZ35IB12EMo7Bm0jlE/XwJT78EXSuiQ="
       }
     },
     "ApiGatewayRestApi": {
@@ -553,7 +553,7 @@
         "MethodResponses": []
       }
     },
-    "ApiGatewayDeployment1526628774122": {
+    "ApiGatewayDeployment1526631241740": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -733,6 +733,52 @@
           ]
         }
       }
+    },
+    "DynamoDbTable": {
+      "Type": "AWS::DynamoDB::Table",
+      "Properties": {
+        "TableName": "recipes",
+        "AttributeDefinitions": [
+          {
+            "AttributeName": "id",
+            "AttributeType": "N"
+          }
+        ],
+        "KeySchema": [
+          {
+            "AttributeName": "id",
+            "KeyType": "HASH"
+          }
+        ],
+        "ProvisionedThroughput": {
+          "ReadCapacityUnits": 5,
+          "WriteCapacityUnits": 5
+        }
+      }
+    },
+    "DynamoDBIamPolicy": {
+      "Type": "AWS::IAM::Policy",
+      "DependsOn": "DynamoDbTable",
+      "Properties": {
+        "PolicyName": "lambda-dynamodb",
+        "PolicyDocument": {
+          "Version": "2012-10-17",
+          "Statement": [
+            {
+              "Effect": "Allow",
+              "Action": [
+                "dynamodb:*"
+              ],
+              "Resource": "arn:aws:dynamodb:*:*:table/*"
+            }
+          ]
+        },
+        "Roles": [
+          {
+            "Ref": "IamRoleLambdaExecution"
+          }
+        ]
+      }
     }
   },
   "Outputs": {
@@ -744,31 +790,31 @@
     "CreateLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "CreateLambdaVersionk9CllDhXWwHptZIFr9jDcbjnRQGtxzx7FLDFqO3kw"
+        "Ref": "CreateLambdaVersiongX0EYedu6lBxjzAV6rWz6ziLyEI1A1CYS1Np79ysvJE"
       }
     },
     "GetListLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "GetListLambdaVersionrN14UQVrRiWlfctv62yU7bkqvGTANPHWyB21BLczYrM"
+        "Ref": "GetListLambdaVersion0dML00BN6Jp5tm2NjrCpbR3fEmzSXliHXnNyGbgwSgs"
       }
     },
     "GetLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "GetLambdaVersioneg98G8ejfNUiFC3FTLQsFTpH20wEMdWwv4ZV5CB3MQ"
+        "Ref": "GetLambdaVersionpOaQhhaJFRdhTORXPcozVsfn274vIEPvbwsZIxnpc3c"
       }
     },
     "UpdateLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "UpdateLambdaVersionc6tfAbxmTY49uYIA2P5WVm5MHZEff6pf0s1sAA8"
+        "Ref": "UpdateLambdaVersionE8OPslsIRi1k8cCKcZSYXoNwSXzCWR8NbDlm95iOzg"
       }
     },
     "RemoveLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "RemoveLambdaVersionauCbZMekvyQn3dWtIiO6pQ8eCAYNIyAQ6JDzmrGo"
+        "Ref": "RemoveLambdaVersionNho5vL6E69j5qbqeulNqooVgg61Haz9xjfdmasMKyU"
       }
     },
     "ServiceEndpoint": {
